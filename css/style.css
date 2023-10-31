@@ -239,7 +239,7 @@ h3{
 .sub-header{
     height: 40vh;
     width: 100%;
-    background-image: linear-gradient(rgba(72, 73, 78, 0.7),rgba(73, 74, 78, 0.7)), url('/bilder/bild7.jpg');
+    background-image: linear-gradient(rgba(72, 73, 78, 0.7),rgba(73, 74, 78, 0.7)), url('../bilder/bild7.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -285,7 +285,7 @@ h3{
 .web-header{
     height: 40vh;
     width: 100%;
-    background-image: linear-gradient(rgb(37, 38, 39),rgba(73, 74, 78, 0.5)), url('/bilder/bild5.jpg');
+    background-image: linear-gradient(rgb(37, 38, 39),rgba(73, 74, 78, 0.5)), url('../bilder/bild5.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -306,7 +306,7 @@ h3{
 .design-header{
     height: 40vh;
     width: 100%;
-    background-image: linear-gradient(rgba(51, 51, 54, 0.9),rgba(73, 74, 78, 0.6)), url('/bilder/shoe.jpg');
+    background-image: linear-gradient(rgba(51, 51, 54, 0.9),rgba(73, 74, 78, 0.6)), url('../bilder/shoe.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -417,7 +417,7 @@ h3{
   .kontakt-header{
     min-height: 75vh;
     width: 100%;
-    background-image: linear-gradient(rgb(61, 60, 58),rgba(100, 98, 95, 0.2)), url('/bilder/start.webp');
+    background-image: linear-gradient(rgb(61, 60, 58),rgba(100, 98, 95, 0.2)), url('../bilder/start.webp');
     background-position: center;
     background-size: cover;
     position: relative;
