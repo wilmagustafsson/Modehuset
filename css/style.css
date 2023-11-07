@@ -5,7 +5,7 @@
 }
 
 .header{
-min-height: 80vh;
+min-height: 95vh;
 width: 100%;
 background-image: linear-gradient(rgba(133, 130, 123, 0.9),rgba(71, 70, 68, 0.4)), url('../bilder/start.webp');
 background-position: center;
@@ -371,51 +371,12 @@ h3{
   
   
   /*-----kontakta oss formulär*/
-  .kontaktformulär {
-    width: 300px;
-    margin: 0 auto;
-    background-color: #dbd9d3; /* Lätt grå färg för bakgrunden */
-    padding: 20px;
-    border-radius: 5px;
-    
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  input {
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid #040101;
-    border-radius: 3px;
-  }
-  
-  input[type="submit"] {
-    background-color: #696760; /* Mörkgrå färg för skicka-knappen */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #544747; /* Ändra färg vid hover */
-
-  }
   
 
 
 
   .kontakt-header{
-    min-height: 75vh;
+    min-height: 40vh;
     width: 100%;
     background-image: linear-gradient(rgb(61, 60, 58),rgba(100, 98, 95, 0.2)), url('../bilder/start.webp');
     background-position: center;
@@ -431,9 +392,40 @@ h3{
         align-items: center;
     
     }
+    .h1kontakt{
+        color: #fff;
+        text-align: center;
+    }
 
 
+ /* Anpassa formulärets stil här */
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            
+        }
 
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #7b7a75;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
 
 
 
@@ -442,6 +434,7 @@ h3{
 
 .h2design {
     color: #040101;
+    
 }
 
 .designers-section {
@@ -516,5 +509,50 @@ h3{
     /* Lägg till fler anpassningar efter behov */
   }
   
+
+
+
+
+  .product-rating {
+    font-size: 15px; /* Justera storleken på stjärnorna efter behov */
+    color: #ebe5cd; /* Färg på omarkerade stjärnor */
+}
+
+.star {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.selected {
+    color: #f7b917; /* Färg på markerade stjärnor */
+}
+
+
+/* Stil för kundvagnsrutan (popup) */
+.kundvagn-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Stil för kundvagnsobjekt (produkter) i popup */
+.kundvagn-objekt {
+    margin: 10px 0;
+}
+
+
+.kundvagn-objekt img {
+    max-width: 100px; /* Justera detta värde efter önskad bredd */
+    max-height: 100px; /* Justera detta värde efter önskad höjd */
+}
+
 
 
